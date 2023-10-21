@@ -19,9 +19,14 @@ strong{
 }
 /* ///////////////////////// Header ///////////////////////// */
 header{
-    background-image: -webkit-image-set("/resources/images/background.jpg");
-    background-color: red;
+    padding: 0% 20% 0% 20%;
+    background-image: url("../images/background.jpg");
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
 }
+
 /* ///////////////////////// main ///////////////////////// */
 main{
     margin: 0% 20% 0% 20%;
@@ -29,17 +34,19 @@ main{
 }
 
 section.main-box-container{
+    justify-content: center;
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .box-items{
+    padding: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-width: 50%;
 }
 
 /* ///////////////////////// Footer ///////////////////////// */
