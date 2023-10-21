@@ -19,28 +19,76 @@ strong{
 }
 /* ///////////////////////// Header ///////////////////////// */
 header{
-    background-image: url("/resources/images/logo.png");
-    background-repeat: repeat;
-    background-position: center;
-    background-size: 100%;
+    background-image: -webkit-image-set("/resources/images/background.jpg");
+    background-color: red;
 }
 /* ///////////////////////// main ///////////////////////// */
 main{
     margin: 0% 20% 0% 20%;
     background-color: blue;
 }
+
+section.main-box-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 50%;
+}
+
 /* ///////////////////////// Footer ///////////////////////// */
 footer{
     background-color: green;
+    padding: 7%;
+}
+
+.footer-brand-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0% 15% 0% 15%;
+}
+
+.footer-brand-items{
+    align-items: center;
+    text-align: center;
+    padding: 0% 2%;
+}
+
+.footer-social-container{
+    text-align: center;
+    margin: 0% 15% 0% 15%;
+}
+
+.footer-social-container nav ul {
+    position: relative;
+    display: flex;
+}
+.footer-social-container nav ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.footer-social-container nav ul li a {
+    text-decoration: none;
 }
 
 /* ///////////////////////// BIBLIOTHEQUE ///////////////////////*
-
-
+/* colors */
+.color-white{
+    color: white;
+}
+.icon-color{
+    color: #808080;
+}
 /* bg-colors */
-/* .bg-primary-header-color{
-    background-image: url("/resources/images/background.jpg");
-} */
 .bg-primary-main-color{
     background-color: #F3F3F3;
 }
@@ -49,4 +97,20 @@ footer{
 }
 .bg-primary-body-color{
     background-color: #1C1C1C;
+}
+/* Séparator */
+/* Dashed border */
+hr.dashed {
+    margin: 2% 15% 2% 15%;
+    border-top: 3px dashed #FFF;
+} 
+/* Dotted border */
+hr.dotted {
+    margin: 2% 15% 2% 15%;
+    border-top: 3px dotted #FFF;
+} 
+/* Solid border */
+hr.solid {
+    margin: 2% 15% 2% 15%;
+    border-top: 3px solid #FFF;
 }
