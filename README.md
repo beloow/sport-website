@@ -74,7 +74,7 @@
 ## About The Project
 
 
-Etablir un site web a partir des éléments donner par un designer, reproduire a l'identique la maquette donnée.
+Établir un site web à partir des éléments donner par un designer, reproduire à l'identique la maquette donnée en un temps limité à 3 jours.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
