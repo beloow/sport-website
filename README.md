@@ -121,8 +121,6 @@ Project Link: [https://github.com/beloow/sport-website](https://github.com/beloo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [Font Monserrat](https://fonts.google.com/specimen/Montserrat)
