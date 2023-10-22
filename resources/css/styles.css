@@ -52,7 +52,7 @@ section.main-box-container{
 /* ///////////////////////// Footer ///////////////////////// */
 footer{
     background-color: green;
-    padding: 7%;
+    padding: 2% 7% 2% 7%;
 }
 
 .footer-brand-container{
@@ -70,12 +70,15 @@ footer{
 
 .footer-social-container{
     text-align: center;
+    align-items: center;
     margin: 0% 15% 0% 15%;
 }
-
+.footer-social-container nav{
+    text-align: center;
+}
 .footer-social-container nav ul {
-    position: relative;
-    display: flex;
+    display: inline-block;
+    text-decoration: none;
 }
 .footer-social-container nav ul li {
     position: relative;
@@ -85,6 +88,10 @@ footer{
 }
 .footer-social-container nav ul li a {
     text-decoration: none;
+}
+.footer-copyrights-container{
+    margin: 2% 15% 0% 15%;
+    text-align: center;
 }
 
 /* ///////////////////////// BIBLIOTHEQUE ///////////////////////*
