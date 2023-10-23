@@ -122,7 +122,11 @@ footer{
     text-align: center;
 }
 
-/* ///////////////////////// BIBLIOTHEQUE ///////////////////////*
+/* ///////////////////////// BIBLIOTHEQUE ///////////////////////*/
+
+.biographie{
+    font-size: 1.4rem;
+}
 /* //////////////// conteneur  ////////////////*/
 .container{
     width: 60%; 
