@@ -14,14 +14,6 @@
 strong{
 	font-weight:normal;
 }
-/* ///////////////////////// A REGARDER ///////////////////////// */
-main {
-    margin-top: 35px;
-}
-.gabarit {
-    width: 80%;
-    margin: auto;
-}
 /* ///////////////////////// Header ///////////////////////// */
 header{
     width: 100%;
@@ -83,10 +75,14 @@ section.main-box-container{
     align-items: center;
     flex-direction: column;
 }
-
 /* article gant de boxe */
 .main-box-img {
     width: 100%;
+}
+.legende-img {
+    position: relative;
+    text-align: center;
+    font-weight: normal;
 }
 .box-section {
     padding: 3% 5% 2% 5%;
@@ -97,62 +93,52 @@ section.main-box-container{
     justify-content: space-between;
     gap: 20px;
 }
-
 article {
     padding: 0% 3% 3% 3%;
     margin: 0 auto 80px;
     max-width: 1000px;
     position: relative;
 }
-
 .reduc {
-    width: 70px;
-    height: 30px;
+    padding: 2% 3% 2% 3%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 27px;
     font-weight: bold;
     background-color: black;
     color: #EA9F05;
-    border-radius: 5px;
+    border-radius: 10px;
     position: absolute;
     top: 15px;
-    right: -30px;
+    right: -20px;
 }
-
 .legende-img {
     position: relative;
     bottom: 30px;
     left: 10px;
 }
-
 .old-price {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: line-through;
+    text-decoration-thickness: 2px;
 }
-
 .new-price {
     font-size: 1.5rem;
     font-weight: bold;
     color: #EA9F05;
 }
-
 .desc-article {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-
-article p {
-    width: 100px;
+.box-section-p-btn {
     background-color: black;
     color: #F3F3F3;
-    padding: 5px;
+    padding: 2% 12% 2% 12%;
     text-align: center;
-    font-weight: 700;
-
+    font-weight: normal;
 }
-
 /* ///////////////////////// Footer ///////////////////////// */
 footer{
     background-color: green;
@@ -168,12 +154,11 @@ footer{
     padding: 1%;
     position: absolute;
     top: -5%;
-    width: 25%;
+    width: 27%;
     background-color: #FFF;
     border-radius: 10px;
     text-align: center;
-    width: 25%;
-    left: 37.5%;
+    left: 35.5%;
 }
 .footer-menunav ul {
     padding: 0.1%;
@@ -290,4 +275,9 @@ hr.solid {
     margin: 2% 15% 2% 15%;
     border-top: 3px solid;
     border-color: #808080;
+}
+/* ///////////////////////// MEDIA ///////////////////////*/
+@media (max-width : 768px) {
+    
+
 }
