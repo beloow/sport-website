@@ -86,15 +86,13 @@ section.main-box-container{
     align-items: center;
     flex-direction: column;
 }
-/* prix barrer text-decoration:line-through; */
 
 /* article gant de boxe */
-
-main img {
+.main-box-img {
     width: 100%;
 }
-
 .box-section {
+    padding: 3% 5% 2% 5%;
     background-color: #F3F3F3;
     display: flex;
     flex-direction: row;
@@ -104,16 +102,16 @@ main img {
 }
 
 article {
-    width: 500px;
+    padding: 0% 3% 3% 3%;
     margin: 0 auto 80px;
     max-width: 1000px;
     position: relative;
 }
 
-article img {
-    width: 500px;
-    height: 500px;
-}
+/* article img {
+    width: 100%;
+    height: 100%;
+} */
 
 .reduc {
     width: 70px;
