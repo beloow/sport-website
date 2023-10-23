@@ -19,33 +19,39 @@ strong{
 }
 /* ///////////////////////// Header ///////////////////////// */
 header{
-    padding: 2% 20% 2% 20%;
-    background-image: url("../images/background.jpg");
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
+    width: 100%;
+    padding-top: 2%;
+    background-image: url(../images/background.jpg);
+    box-shadow: 0 3px 5px 3px rgba(0,0,0,1);
+}
+header > section{
     justify-content: space-between;
 }
-.header-item2 {
-    text-align: right;
+header > section > div:first-of-type{
+    align-items: flex-start;
+    margin-bottom: 1%;
 }
-nav.menunav{
-    text-align: right;
+header > section > div:last-of-type{
+    align-items: flex-end;
 }
-nav.menunav ul {
+.primary-nav{
+    text-align: center;
+}
+.primary-nav > ul {
     display: inline-block;
     text-decoration: none;
 }
-nav.menunav ul li {
+.primary-nav > ul > li{
     position: relative;
     list-style: none;
-    margin: 0 20px;
+    margin: 0 0 0 20px;
     cursor: pointer;
 }
-nav.menunav ul li a {
+.primary-nav > ul > li > a{
     text-decoration: none;
-    color: black;
+}
+.test{
+    flex-direction: column;
 }
 /* ///////////////////////// main ///////////////////////// */
 main{
@@ -65,11 +71,6 @@ section.main-box-container{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.header-item2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 /* prix barrer text-decoration:line-through; */
 
@@ -119,6 +120,15 @@ footer{
 }
 
 /* ///////////////////////// BIBLIOTHEQUE ///////////////////////*
+/* conteneur */
+.container{
+    width: 60%; 
+    margin: auto
+}
+/* display */
+.flex {
+    display: flex;
+}
 /* colors */
 .color-white{
     color: white;
@@ -143,15 +153,18 @@ footer{
 /* Dashed border */
 hr.dashed {
     margin: 2% 15% 2% 15%;
-    border-top: 3px dashed #FFF;
+    border-top: 3px dashed #808080;
+    border-color: #808080;
 } 
 /* Dotted border */
 hr.dotted {
     margin: 2% 15% 2% 15%;
-    border-top: 3px dotted #FFF;
+    border-top: 3px dotted #808080;
+    border-color: #808080;
 } 
 /* Solid border */
 hr.solid {
     margin: 2% 15% 2% 15%;
-    border-top: 3px solid #FFF;
+    border-top: 3px solid #808080;
+    border-color: #808080;
 }
