@@ -59,7 +59,6 @@ header > section > div:last-of-type{
 /* ///////////////////////// main ///////////////////////// */
 main{
     margin: 0% 20% 0% 20%;
-    background-color: blue;
 }
 section.main-box-container{
     justify-content: center;
@@ -141,7 +140,6 @@ article {
 }
 /* ///////////////////////// Footer ///////////////////////// */
 footer{
-    background-color: green;
     padding: 2% 7% 2% 7%;
     position: absolute;
 }
@@ -278,6 +276,94 @@ hr.solid {
 }
 /* ///////////////////////// MEDIA ///////////////////////*/
 @media (max-width : 768px) {
-    
-
+    main{
+        margin: 0% 5% 0% 5%;
+    }
+    .box-items{
+        margin: 2%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box-section {
+        padding: 0%;
+        background-color: #F3F3F3;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        gap: 5px;
+    }
+    article {
+        padding: 0%;
+        margin: 0 auto 80px;
+        max-width: 1000px;
+        position: relative;
+    }
+    footer{
+        padding: 5% 1% 5% 1%;
+        position: absolute;
+    }
+    /* //////// CSS menu navigation footer //////// */
+    .footer-nav-container{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-menunav {
+        padding: 2%;
+        position: absolute;
+        top: -5%;
+        width: 80%;
+        background-color: #FFF;
+        border-radius: 10px;
+        text-align: center;
+        left: 10%;
+    }
+    .footer-menunav ul {
+        padding: 0.1%;
+        bottom: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-menunav li {
+        align-self: center;
+    }
+    .footer-menunav ul  li a{
+        font-size: 10px;
+        font-weight: normal;
+    }
+    /* Brand */
+    .footer-brand-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 2% 7% 0% 7%;
+    }
+    .footer-brand-items{
+        max-width: 40%;
+        align-items: center;
+        text-align: center;
+        padding: 5%;
+        font-size: 12px;
+    }
+    /* Dashed border */
+    hr.dashed {
+        margin: 2% 5% 2% 5%;
+        border-top: 3px dashed;
+        border-color: #808080;
+    } 
+    /* Dotted border */
+    hr.dotted {
+        margin: 2% 5% 2% 5%;
+        border-top: 3px dotted;
+        border-color: #808080;
+    } 
+    /* Solid border */
+    hr.solid {
+        margin: 2% 5% 2% 5%;
+        border-top: 3px solid;
+        border-color: #808080;
+    }
 }
