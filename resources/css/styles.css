@@ -1,22 +1,30 @@
 /* ///////////////////////// Global ///////////////////////// */
 @font-face {
-    font-family: LiberationSans-Bold-webfont;
-    src: url(resources/fonts/LiberationSans-Bold-webfont.ttf);
-}
-@font-face {
-    font-family: LiberationSans-Regular-webfont;
-    src: url(resources/fonts/LiberationSans-Regular-webfont.ttf);
+    font-family: 'Liberation';
+    src: url(../fonts/LiberationSans-Bold-webfont.ttf);
+    src: url(../fonts/LiberationSans-Regular-webfont.ttf);
 }
 *{
-    font-family: 'Lucida Sans Regular', sans-serif;
+    font-family: 'Liberation', sans-serif;
     padding: 0%;
     margin: 0%;
-    box-sizing: border-box;
     list-style-type: none;
+    text-decoration: none;
 }
 strong{
 	font-weight:normal;
 }
+
+/* test */
+main {
+    margin-top: 35px;
+}
+
+.gabarit {
+    width: 80%;
+    margin: auto;
+}
+
 /* ///////////////////////// Header ///////////////////////// */
 header{
     width: 100%;
@@ -56,6 +64,9 @@ header > section > div:last-of-type{
     align-items: start;
     justify-content: space-between;
 }
+.margin-top{
+    margin-top: 5%;
+}
 /* ///////////////////////// main ///////////////////////// */
 main{
     margin: 0% 20% 0% 20%;
@@ -77,11 +88,113 @@ section.main-box-container{
 }
 /* prix barrer text-decoration:line-through; */
 
+/* article gant de boxe */
+
+main img {
+    width: 100%;
+}
+
+#main-section {
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+article {
+    width: 500px;
+    margin: 0 auto 80px;
+    max-width: 1000px;
+    position: relative;
+}
+
+article img {
+    width: 500px;
+    height: 500px;
+}
+
+.reduc {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: black;
+    color: #EA9F05;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: -30px;
+}
+
+.legende-img {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+}
+
+.old-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #EA9F05;
+}
+
+.under-article {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+article p {
+    width: 100px;
+    background-color: black;
+    color: #F3F3F3;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
 /* ///////////////////////// Footer ///////////////////////// */
 footer{
     background-color: green;
     padding: 2% 7% 2% 7%;
 }
+/* //////////////// a revoir //////////////// */
+.footer-div-menunav {
+    position: absolute;
+}
+
+.footer-menunav {
+    position: absolute;
+    top: -20px;
+    left: 25%;
+    width: 50%;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.footer-menunav ul {
+    padding: 10px;
+    bottom: -20px;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menunav li {
+    align-self: center;
+}
+
+/* //////////////// a revoir //////////////// */
 
 .footer-brand-container{
     display: flex;
@@ -89,13 +202,11 @@ footer{
     flex-direction: row;
     margin: 0% 15% 0% 15%;
 }
-
 .footer-brand-items{
     align-items: center;
     text-align: center;
     padding: 0% 2%;
 }
-
 .footer-social-container{
     text-align: center;
     align-items: center;
@@ -121,25 +232,25 @@ footer{
     margin: 2% 15% 0% 15%;
     text-align: center;
 }
-
 /* ///////////////////////// BIBLIOTHEQUE ///////////////////////*/
-
-.biographie{
-    font-size: 1.4rem;
+/* //////////////// Textes  //////////////// */
+.header-text{
+    font-size: 23px;
+    font-weight: normal;
 }
-/* //////////////// conteneur  ////////////////*/
+/* //////////////// Conteneur  //////////////// */
 .container{
     width: 60%; 
     margin: auto
 }
-/* //////////////// display //////////////// */
+/* //////////////// Display //////////////// */
 .flex {
     display: flex;
 }
 .inline {
     display: inline;
 }
-/* //////////////// colors //////////////// */
+/* //////////////// Colors //////////////// */
 .color-white{
     color: white;
 }
@@ -151,6 +262,9 @@ footer{
 }
 .icon-color{
     color: #808080;
+}
+.color-footer-nav{
+    color: #d2d2d2;
 }
 /* //////////////// bg-colors //////////////// */
 .bg-primary-main-color{
@@ -165,22 +279,22 @@ footer{
 .bg-color-white{
     background-color: #FFF;
 }
-/* //////////////// Séparator //////////////// */
+/* //////////////// Separator //////////////// */
 /* Dashed border */
 hr.dashed {
     margin: 2% 15% 2% 15%;
-    border-top: 3px dashed #808080;
+    border-top: 3px dashed;
     border-color: #808080;
 } 
 /* Dotted border */
 hr.dotted {
     margin: 2% 15% 2% 15%;
-    border-top: 3px dotted #808080;
+    border-top: 3px dotted;
     border-color: #808080;
 } 
 /* Solid border */
 hr.solid {
     margin: 2% 15% 2% 15%;
-    border-top: 3px solid #808080;
+    border-top: 3px solid;
     border-color: #808080;
 }
