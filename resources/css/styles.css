@@ -167,26 +167,32 @@ article p {
 footer{
     background-color: green;
     padding: 2% 7% 2% 7%;
+    position: absolute;
 }
 /* //////////////// a revoir //////////////// */
-.footer-div-menunav {
-    position: absolute;
+.footer-nav-container{
+    align-items: center;
+    text-align: center;
 }
 
 .footer-menunav {
+    padding: 1%;
     position: absolute;
-    top: -20px;
-    left: 25%;
-    width: 50%;
+    top: -5%;
+    width: 25%;
     background-color: #FFF;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    left: 37.5%;
 }
 
 .footer-menunav ul {
-    padding: 10px;
+    padding: 0.1%;
     bottom: -20px;
-    left: 30%;
+    left: 15%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -200,7 +206,7 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin: 0% 15% 0% 15%;
+    margin: 3% 15% 0% 15%;
 }
 .footer-brand-items{
     align-items: center;
@@ -263,7 +269,7 @@ footer{
 .icon-color{
     color: #808080;
 }
-.color-footer-nav{
+.color-gray-point{
     color: #d2d2d2;
 }
 /* //////////////// bg-colors //////////////// */
