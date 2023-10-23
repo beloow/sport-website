@@ -14,17 +14,14 @@
 strong{
 	font-weight:normal;
 }
-
-/* test */
+/* ///////////////////////// A REGARDER ///////////////////////// */
 main {
     margin-top: 35px;
 }
-
 .gabarit {
     width: 80%;
     margin: auto;
 }
-
 /* ///////////////////////// Header ///////////////////////// */
 header{
     width: 100%;
@@ -107,11 +104,6 @@ article {
     max-width: 1000px;
     position: relative;
 }
-
-/* article img {
-    width: 100%;
-    height: 100%;
-} */
 
 .reduc {
     width: 70px;
@@ -234,7 +226,7 @@ footer{
     text-align: center;
 }
 /* ///////////////////////// BIBLIOTHEQUE ///////////////////////*/
-/* //////////////// Textes  //////////////// */
+/* //////////////// Text  //////////////// */
 .header-text{
     font-size: 23px;
     font-weight: normal;
