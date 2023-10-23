@@ -123,16 +123,19 @@ footer{
 }
 
 /* ///////////////////////// BIBLIOTHEQUE ///////////////////////*
-/* conteneur */
+/* //////////////// conteneur  ////////////////*/
 .container{
     width: 60%; 
     margin: auto
 }
-/* display */
+/* //////////////// display //////////////// */
 .flex {
     display: flex;
 }
-/* colors */
+.inline {
+    display: inline;
+}
+/* //////////////// colors //////////////// */
 .color-white{
     color: white;
 }
@@ -145,7 +148,7 @@ footer{
 .icon-color{
     color: #808080;
 }
-/* bg-colors */
+/* //////////////// bg-colors //////////////// */
 .bg-primary-main-color{
     background-color: #F3F3F3;
 }
@@ -158,7 +161,7 @@ footer{
 .bg-color-white{
     background-color: #FFF;
 }
-/* Séparator */
+/* //////////////// Séparator //////////////// */
 /* Dashed border */
 hr.dashed {
     margin: 2% 15% 2% 15%;
