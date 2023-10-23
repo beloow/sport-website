@@ -169,12 +169,11 @@ footer{
     padding: 2% 7% 2% 7%;
     position: absolute;
 }
-/* //////////////// a revoir //////////////// */
+/* //////// CSS menu navigation footer //////// */
 .footer-nav-container{
     align-items: center;
     text-align: center;
 }
-
 .footer-menunav {
     padding: 1%;
     position: absolute;
@@ -186,7 +185,6 @@ footer{
     width: 25%;
     left: 37.5%;
 }
-
 .footer-menunav ul {
     padding: 0.1%;
     bottom: -20px;
@@ -195,13 +193,10 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-
 .footer-menunav li {
     align-self: center;
 }
-
-/* //////////////// a revoir //////////////// */
-
+/* //////// CSS menu  brand footer //////// */
 .footer-brand-container{
     display: flex;
     align-items: center;
@@ -213,6 +208,7 @@ footer{
     text-align: center;
     padding: 0% 2%;
 }
+/* //////// CSS menu reseaux sociaux footer //////// */
 .footer-social-container{
     text-align: center;
     align-items: center;
@@ -234,6 +230,7 @@ footer{
 .footer-social-container nav ul li a {
     text-decoration: none;
 }
+/* //////// CSS copyrights //////// */
 .footer-copyrights-container{
     margin: 2% 15% 0% 15%;
     text-align: center;
