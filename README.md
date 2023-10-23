@@ -98,9 +98,11 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Réalisé le Header
-- [ ] Réaliser le main
-- [x] Réalister le footer
+- [X] Réalisé le Header
+- [X] Réaliser le main
+- [X] Réalister le footer
+- [X] Version PC
+- [ ] Version mobile
 
 See the [open issues](https://github.com/beloow/sport-website/issues) for a full list of proposed features (and known issues).
 
