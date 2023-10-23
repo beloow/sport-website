@@ -8,7 +8,7 @@
     src: url(resources/fonts/LiberationSans-Regular-webfont.ttf);
 }
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lucida Sans Regular', sans-serif;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -19,7 +19,7 @@ strong{
 }
 /* ///////////////////////// Header ///////////////////////// */
 header{
-    padding: 0% 20% 0% 20%;
+    padding: 2% 20% 2% 20%;
     background-image: url("../images/background.jpg");
     display: flex;
     align-items: center;
@@ -27,13 +27,31 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
-
+.header-item2 {
+    text-align: right;
+}
+nav.menunav{
+    text-align: right;
+}
+nav.menunav ul {
+    display: inline-block;
+    text-decoration: none;
+}
+nav.menunav ul li {
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+nav.menunav ul li a {
+    text-decoration: none;
+    color: black;
+}
 /* ///////////////////////// main ///////////////////////// */
 main{
     margin: 0% 20% 0% 20%;
     background-color: blue;
 }
-
 section.main-box-container{
     justify-content: center;
     display: flex;
@@ -42,13 +60,13 @@ section.main-box-container{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .box-items{
-    padding: 5%;
+    margin: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+/* prix barrer text-decoration:line-through; */
 
 /* ///////////////////////// Footer ///////////////////////// */
 footer{
@@ -112,6 +130,9 @@ footer{
 }
 .bg-primary-body-color{
     background-color: #1C1C1C;
+}
+.bg-color-white{
+    background-color: #FFF;
 }
 /* Séparator */
 /* Dashed border */
