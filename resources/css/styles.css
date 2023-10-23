@@ -94,7 +94,7 @@ main img {
     width: 100%;
 }
 
-#main-section {
+.box-section {
     background-color: #F3F3F3;
     display: flex;
     flex-direction: row;
@@ -147,7 +147,7 @@ article img {
     color: #EA9F05;
 }
 
-.under-article {
+.desc-article {
     display: flex;
     justify-content: space-around;
     text-align: center;
