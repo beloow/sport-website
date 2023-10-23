@@ -316,15 +316,11 @@ hr.solid {
         position: relative;
         list-style: none;
         cursor: pointer;
+        
     }
     .primary-nav > ul > li > a{
         text-decoration: none;
     }
-    /* .test{
-        flex-direction: column;
-        align-items: start; 
-        justify-content: center;
-    } */
     .margin-top{
         margin-top: 5%;
     }
@@ -373,7 +369,6 @@ hr.solid {
         bottom: -20px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
     }
     .footer-menunav li {
         align-self: center;
