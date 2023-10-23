@@ -103,7 +103,7 @@
 - [X] Réalister le footer
 - [X] Ajouter des commentaires
 - [X] Version PC
-- [ ] Version mobile (En cour . . .)
+- [X] Version mobile
 
 See the [open issues](https://github.com/beloow/sport-website/issues) for a full list of proposed features (and known issues).
 
