@@ -219,6 +219,9 @@ footer{
     width: 60%; 
     margin: auto
 }
+.container-mobile{
+    display: none;
+}
 /* //////////////// Display //////////////// */
 .flex {
     display: flex;
@@ -279,6 +282,53 @@ hr.solid {
     main{
         margin: 0% 5% 0% 5%;
     }
+    /* header */
+    .header-text{
+        font-size: 21px;
+        font-weight: normal;
+    }
+    header{
+        padding-top: 2%;
+        background-image: url(../images/background.jpg);
+        box-shadow: 0 3px 5px 3px rgba(0,0,0,1);
+    }
+    header > section{
+        justify-content: center;
+        flex-direction: column;
+    }
+    header > section > div:first-of-type{
+        align-items: center;
+        margin-bottom: 1%;
+    }
+    header > section > div:last-of-type{
+        align-items: center;
+    }
+    .primary-nav{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .primary-nav > ul {
+        display: inline-block;
+        text-decoration: none;
+    }
+    .primary-nav > ul > li{
+        position: relative;
+        list-style: none;
+        margin: 0 0 0 20px;
+        cursor: pointer;
+    }
+    .primary-nav > ul > li > a{
+        text-decoration: none;
+    }
+    .test{
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .margin-top{
+        margin-top: 5%;
+    }
+    /* box items */
     .box-items{
         margin: 2%;
         display: flex;
