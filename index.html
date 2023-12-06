@@ -1,218 +1,130 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- //////////  Balise meta description //////////  -->
-    <meta name="description" content="Sport.com | Box accessories">
-    <!-- //////////  Import de la police font-awesome pour les logo en bas de page //////////  -->
-    <link 
-      rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
-      crossorigin="anonymous" 
-      referrerpolicy="no-referrer" 
-    />
-    <!-- //////////  liens vers la feuille de style //////////  -->
-    <link rel="stylesheet" href="resources/css/styles.css">
-    <!-- //////////  Titre du site web //////////  -->
+    <meta name="description" content="sport de combat vente de gants....">
     <title>Sport.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-primary-body-color">
-    <!-- //////////  Section haute du site (header) //////////  -->
+<body>
     <header>
-        <!-- //////////  Section container flex qui contiens le header et l'organise //////////  -->
-        <section class="container flex">
-            <div class="flex header-flex test">
-                <!-- //////////  Logo du site web //////////  -->
-                <a href="index.html"><img src="resources/images/logo.png" alt="Logo du site"></a>
-                <!-- //////////  Phrase d'acroche du site web / description //////////  -->
-                <h1 class="header-text margin-top">Lorem ipsum dolor <span class="color-orange">sit amet</span></h1>
+        <div id="header-logo">
+            <div class="container-fix align-horiz align-horiz-space-between">
+                <a href="index.html"><img src="images/logo-sports.png" alt="logo sports"></a>
+                <p>Bonjour Julien</p>
             </div>
-            <div class="flex header-flex test">
-                <!-- //////////  Message de bienvenue a l'utilisateur //////////  -->
-                <p class="header-text">Bonjour Julien</p>
-                <!-- ////////// Menu principale du site web //////////  -->
-                <nav id="primary-nav" class="primary-nav margin-top">
-                    <!-- //////////  Lien Contactez-nous //////////  -->
-                    <ul>
-                        <li><a href="#" class="color-black">Contactez-nous</a></li>
-                    </ul>
-                    <!-- //////////  Lien Parrainage //////////  -->
-                    <ul>
-                        <li><a href="#" class="color-black">Parrainage</a></li>
-                    </ul>
-                    <!-- //////////  Lien déconnexion //////////  -->
-                    <ul>
-                        <li><a href="#" class="color-black">Déconnexion</a></li>
+            <div class="container-fix align-horiz align-horiz-space-between">
+                <h1>Lorem ipsum dolor <span class="primary-color">sit amet</span></h1>
+                <nav id="primary-nav">
+                    <ul class="align-horiz">
+                        <li><a href="#">Contactez-nous</a></li>
+                        <li><a href="#">Parrainage</a></li>
+                        <li><a href="#">Deconnexion</a></li>
                     </ul>
                 </nav>
             </div>
-        </section>
+        </div>       
+        <img src="images/header-page-catalogue.png" alt="combat de boxe" class="container-fix">  
     </header>
-    <!-- //////////  Section principale du site (main) //////////  -->
-    <main class="bg-primary-main-color">
-        <img class="main-box-img" src="resources/images/header-page-catalogue.png" alt="header catalogue">
-        <section id="box-section" class="box-section">
-            <!-- ///////////////////////// Article 1 /////////////////////////  -->
-            <article>
-                <a href="#"><img src="resources/images/gant-boxe-2.png" alt="Gants noir klimax"></a>
-                <div class="reduc">
-                    <!-- //////////  Etiquette reduction prix en pourcentage //////////  -->
-                    <p>- 45 %</p>
-                </div>
-                <!-- //////////  Titre de l'article //////////  -->
-                <h4 class="legende-img">GANTS DE BOXE COMBAT KLIMAX V3</h4>
-                <div class="desc-article">
-                    <p class="box-section-p-btn">Voir la vente</p>
-                    <!-- //////////  Encien prix post reduction //////////  -->
-                    <div class="old-price">120 € </div>
-                    <!-- //////////  Nouveaux prix post reduction //////////  -->
-                    <div class="new-price">65 €</div>
-                </div>
-            </article>
-            <!-- ///////////////////////// Article 2 /////////////////////////  -->
-            <article>
-                <a href="#"><img src="resources/images/gant-boxe-1.png" alt="Gants noir klimax"></a>
-                <div class="reduc">
-                    <!-- //////////  Etiquette reduction prix en pourcentage //////////  -->
-                    <p>- 45 %</p>
-                </div>
-                <!-- //////////  Titre de l'article //////////  -->
-                <h4 class="legende-img">GANTS DE BOXE COMBAT KLIMAX V3</h4>
-                <div class="desc-article">
-                    <p class="box-section-p-btn">Voir la vente</p>
-                    <!-- //////////  Encien prix post reduction //////////  -->
-                    <div class="old-price">120 € </div>
-                    <!-- //////////  Nouveaux prix post reduction //////////  -->
-                    <div class="new-price">65 €</div>
-                </div>
-            </article>
-            <!-- ///////////////////////// Article 3 /////////////////////////  -->
-            <article>
-                <a href="#"><img src="resources/images/gant-boxe-2.png" alt="Gants noir klimax"></a>
-                <div class="reduc">
-                    <!-- //////////  Etiquette reduction prix en pourcentage //////////  -->
-                    <p>- 45 %</p>
-                </div>
-                <!-- //////////  Titre de l'article //////////  -->
-                <h4 class="legende-img">GANTS DE BOXE COMBAT KLIMAX V3</h4>
-                <div class="desc-article">
-                    <p class="box-section-p-btn">Voir la vente</p>
-                    <!-- //////////  Encien prix post reduction //////////  -->
-                    <div class="old-price">120 € </div>
-                    <!-- //////////  Nouveaux prix post reduction //////////  -->
-                    <div class="new-price">65 €</div>
-                </div>
-            </article>
-            <!-- ///////////////////////// Article 4 /////////////////////////  -->
-            <article>
-                <a href="#"><img src="resources/images/gant-boxe-1.png" alt="Gants noir klimax"></a>
-                <div class="reduc">
-                    <!-- //////////  Etiquette reduction prix en pourcentage //////////  -->
-                    <p>- 45 %</p>
-                </div>
-                <!-- //////////  Titre de l'article //////////  -->
-                <h4 class="legende-img">GANTS DE BOXE COMBAT KLIMAX V3</h4>
-                <div class="desc-article">
-                    <p class="box-section-p-btn">Voir la vente</p>
-                    <!-- //////////  Encien prix post reduction //////////  -->
-                    <div class="old-price">120 € </div>
-                    <!-- //////////  Nouveaux prix post reduction //////////  -->
-                    <div class="new-price">65 €</div>
-                </div>
-            </article>
+    <main class="container-fix">  
+              
+        <div class="products">
+            <ul class="align-horiz">
+                <li>
+                    <a href="#">
+                        <p class="reduction">-45%</p>
+                        <img src="images/gant-boxe-1.png" alt="gand de boxe noir">
+                        <h2>Gant de boxe combat kilmax v3</h2>
+                    </a>
+                    <div class="price">
+                        <button>Voir la vente</button>
+                        <span class="prix-barre">120 €</span>
+                        <span class="prix-promo">65 €</span>
+                    </div>
+                
+                </li>
+                <li>
+                    <a href="#">
+                        <p class="reduction">-45%</p>
+                        <img src="images/gant-boxe-2.png" alt="gand de boxe noir">
+                        <h2>Gant de boxe combat kilmax v3</h2>
+                    </a>
+                    <div class="price">
+                        <button>Voir la vente</button>
+                        <span class="prix-barre">120 €</span>
+                        <span class="prix-promo">65 €</span>
+                    </div>                
+                </li>
+                <li>
+                    <a href="#">
+                        <p class="reduction">-45%</p>
+                        <img src="images/gant-boxe-1.png" alt="gand de boxe noir">
+                        <h2>Gant de boxe combat kilmax v3</h2>
+                    </a>
+                    <div class="price">
+                        <button>Voir la vente</button>
+                        <span class="prix-barre">120 €</span>
+                        <span class="prix-promo">65 €</span>
+                    </div>
+                
+                </li>
+                <li>
+                    <a href="#">
+                        <p class="reduction">-45%</p>
+                        <img src="images/gant-boxe-2.png" alt="gand de boxe noir">
+                        <h2>Gant de boxe combat kilmax v3</h2>
+                    </a>
+                    <div class="price">
+                        <button>Voir la vente</button>
+                        <span class="prix-barre">120 €</span>
+                        <span class="prix-promo">65 €</span>
+                    </div>                
+                </li>
+            </ul>
+        </div>
 
-        </section>
     </main>
-    <!-- //////////  Section bas de page du site (footer) //////////  -->
-    <footer class="bg-primary-footer-color">
-        <!-- ///////////////////////// Section Menu de navigation du bas de page /////////////////////////  -->
-        <section class="footer-nav-container">
-            <div>
-                <!-- ///////////////////////// Menu de navigation du bas de page /////////////////////////  -->
-                <nav class="footer-menunav">
-                    <ul>
-                        <!-- //////////  Lien Qui sommes-nous //////////  -->
-                        <li><a href="#" class="color-black">Qui sommes-nous</a></li>
-                        <!-- //////////  Point separateur //////////  -->
-                        <li><i class="fa-solid fa-circle color-gray-point"></i></li>
-                        <!-- //////////  Lien contact //////////  -->
-                        <li><a href="#" class="color-black">Contact</a></li>
-                        <!-- //////////  Point separateur //////////  -->
-                        <li><i class="fa-solid fa-circle color-gray-point"></i></li>
-                        <!-- //////////  Lien Assistance //////////  -->
-                        <li><a href="#" class="color-black">Assistance</a></li>
-                        <!-- //////////  Point separateur //////////  -->
-                        <li><i class="fa-solid fa-circle color-gray-point"></i></li>
-                        <!-- //////////  Lien CGV //////////  -->
-                        <li><a href="#" class="color-black">CGV</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
-        <!-- ///////////////////////// Icon branding bas de page /////////////////////////  -->
-        <section class="footer-brand-container">
-            <!-- /////////////////////////  branding 1 /////////////////////////  -->
-            <div class="footer-brand-items footer-brand-item1">
-                <!-- //////////  Logo //////////  -->
-                <img src="resources/images/icon-livre.png" alt="Icon de livre">
-                <!-- //////////  texte //////////  -->
-                <p class="color-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam doloribus ducimus.</p>
-            </div>
-            <!-- /////////////////////////  branding 2 /////////////////////////  -->
-            <div class="footer-brand-items footer-brand-item2">
-                <!-- //////////  Logo //////////  -->
-                <img src="resources/images/icon-camion.png" alt="Icon de camion">
-                <!-- //////////  texte //////////  -->
-                <p class="color-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam doloribus ducimus.</p>
-            </div>
-            <!-- /////////////////////////  branding 3 /////////////////////////  -->
-            <div class="footer-brand-items footer-brand-item3">
-                <!-- //////////  Logo //////////  -->
-                <img src="resources/images/icon-cadenat.png" alt="Icon de cadenat">
-                <!-- //////////  texte //////////  -->
-                <p class="color-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam doloribus ducimus.</p>
-            </div>
-            <!-- /////////////////////////  branding 4 /////////////////////////  -->
-            <div class="footer-brand-items footer-brand-item4">
-                <!-- //////////  Logo //////////  -->
-                <img src="resources/images/icon-pouce.png" alt="Icon de pouce">
-                <!-- //////////  texte //////////  -->
-                <p class="color-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam doloribus ducimus.</p>
-            </div>
-        </section>
-        <!-- /////////////////////////  Separateur du footer /////////////////////////  -->
-        <hr class="solid">
-        <!-- /////////////////////////  Section Menu reseaux sociaux /////////////////////////  -->
-        <section class="footer-social-container">
-            <!-- /////////////////////////  Menu reseaux sociaux /////////////////////////  -->
-            <nav>
-                <!-- /////////////////////////  Logo/lien facebook /////////////////////////  -->
-                <ul>
-                    <li>
-                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f fa-2xl icon-color"></i></a>
-                    </li>
+    <footer>
+        <div class="container-fix">
+            <nav id="footer-nav">
+                <ul class="align-horiz">
+                    <li><a href="#">Qui sommes nous</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Assistance</a></li>
+                    <li><a href="#">CGV</a></li>
                 </ul>
-                <!-- /////////////////////////  Logo/lien twitter /////////////////////////  -->
-                <ul>
-                    <li>
-                        <a href="https://tweeter.com/"><i class="fa-brands fa-twitter fa-2xl icon-color"></i></a>
-                    </li>
-                </ul>
-                <!-- /////////////////////////  Logo/lien linkedin /////////////////////////  -->
-                <ul>
-                    <li>
-                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin-in fa-2xl icon-color"></i></a>
-                    </li>
-                </ul>
+            </nav>  
+            <ul class="align-horiz">
+                <li>
+                    <img src="images/icon-livre.png" alt="icone livre">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+                </li>
+                <li>
+                    <img src="images/icon-camion.png" alt="icone icon-camion">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+                </li>
+                <li>
+                    <img src="images/icon-cadenat.png" alt="icone cadenat">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+                </li>
+                <li>
+                    <img src="images/icon-pouce.png" alt="icone pouce">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+                </li>
+            </ul> 
+            <hr>
+            <nav class="social">            
+                <ul class="align-horiz align-horiz-center">
+                    <li><a href=""><i class="fa-brands fa-facebook-f fa-3x"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter fa-3x"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin-in fa-3x"></i></a></li>
+                </ul>    
             </nav>
-        </section>
-        <!-- /////////////////////////  Section Copyright /////////////////////////  -->
-        <section class="footer-copyrights-container color-white">
-            <!-- /////////////////////////  Copyright /////////////////////////  -->
-            <p>&copy 2013 sport privilege. Tout droits résérvés.</p>
-        </section>
+            <p id="copyright">&copy; 2023 tous droits de reproductions réservés</p>  
+        </div>
     </footer>
+    
 </body>
 </html>
